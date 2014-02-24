@@ -1,0 +1,10 @@
+﻿<UserControl x:Class="PMQViewer.UserControl1"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" Height="275" Width="1116">
+    <Border BorderBrush="#FF051DCD" BorderThickness="3" Name="border1" ClipToBounds="True" Background="White" CornerRadius="20" DataContext="{Binding}" Margin="5">
+        <ListView Name="listView1" BorderBrush="{x:Null}" IsTabStop="True" Margin="6" FontFamily="Calibri" FontSize="11"></ListView>
+    </Border>
+</UserControl>
